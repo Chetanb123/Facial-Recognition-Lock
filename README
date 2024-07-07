@@ -1,0 +1,13 @@
+Overview:
+This project encrypts a file of your choose and then based on a facial recognition algorithm, it will decrypt the file based on who's face is recognized
+
+To use this project guide:
+1) Run the datacollect.py to create 800 test images
+2) Then modify the labels tab to create categories of people
+3) Run test.py to ensure that the model can detect a face
+4) Run generatekey.py to create a key used to decrypt the file
+5) Create a file of your choosing and store in the same directory as test.py
+6) Run the encrypt.py and input the file name that you created, this will replace the original file as a .encrypted
+7) Finally run test.py and it will create the decrypted version of the file in the directory
+
+

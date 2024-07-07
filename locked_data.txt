@@ -1,0 +1,3 @@
+Test, if the key works, you can access this!
+
+#This is the file that has been encrypted from the .encrypted file
